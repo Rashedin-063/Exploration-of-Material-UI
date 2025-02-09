@@ -1,12 +1,15 @@
-import ButtonContainer from './components/ButtonContainer';
-import TypographyContainer from './components/TypographyContainer';
+// import ButtonContainer from './components/ButtonContainer';
+// import TypographyContainer from './components/TypographyContainer';
+
+import SxProp from "./components/SxProp";
 
 const App = () => {
   return (
-    <>
-      <ButtonContainer />
-      <TypographyContainer/>
-    </>
+    <div style={{minHeight: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      {/* <ButtonContainer />
+      <TypographyContainer/> */}
+      <SxProp/>
+    </div>
   );
 };
 

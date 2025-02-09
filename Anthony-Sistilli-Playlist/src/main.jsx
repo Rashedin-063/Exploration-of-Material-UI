@@ -3,18 +3,23 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createTheme, ThemeProvider } from '@mui/material'
-import { orange } from '@mui/material/colors'
+import { orange, red, blue } from '@mui/material/colors'
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#ccc',
+      main: blue[600],
       contrastText: '#fff',
     },
     secondary: {
       main: orange[500],
       contrastText: '#000',
     },
+    myCustomColor: {
+      main: red[600],
+      superDark: red[900],
+      superLight: red[300],
+    }
   },
   typography: {
   myVariant: {

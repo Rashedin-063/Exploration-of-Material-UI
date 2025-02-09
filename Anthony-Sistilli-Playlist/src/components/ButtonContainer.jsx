@@ -44,7 +44,7 @@ const ButtonContainer = () => {
           Large
         </Button>
       </Box>
-      <Box>
+      <Box my={4}>
         <IconButton aria-label='delete'>
           <DeleteIcon/>
         </IconButton>
