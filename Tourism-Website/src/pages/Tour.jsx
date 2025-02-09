@@ -1,6 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import Container from '@mui/material/Container';
 import ImageCollage from '../components/ImageCollage';
+import CustomizedAccordions from '../components/Accordion';
 
 const Tour = () => {
   return (
@@ -17,6 +18,7 @@ const Tour = () => {
           />
           <ImageCollage />
         </Box>
+        {/* title and description */}
         <Box>
           <Typography variant='h6' component='h4' marginTop={3}>
            About this ticket
@@ -25,13 +27,12 @@ const Tour = () => {
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolore consequuntur explicabo earum perspiciatis eaque, error sint blanditiis maxime culpa, aliquid nobis accusantium repellat dolores. Asperiores dolorum sapiente numquam, vitae repellat perspiciatis modi, nobis nemo autem error tempora minima nihil?
           </Typography>
         </Box>
+        {/* accordion */}
         <Box>
-          <Typography variant='h6' component='h4' marginTop={3}>
-           About this ticket
+          <Typography variant='h6' component='h4' marginY={3}>
+           Frequently Asked Question
           </Typography>
-          <Typography variant='p' component='p' marginTop={3}>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolore consequuntur explicabo earum perspiciatis eaque, error sint blanditiis maxime culpa, aliquid nobis accusantium repellat dolores. Asperiores dolorum sapiente numquam, vitae repellat perspiciatis modi, nobis nemo autem error tempora minima nihil?
-          </Typography>
+    <CustomizedAccordions/>
         </Box>
         
       </Container>
