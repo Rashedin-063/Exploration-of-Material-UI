@@ -1,7 +1,11 @@
 // import ButtonContainer from './components/ButtonContainer';
 // import TypographyContainer from './components/TypographyContainer';
 
-import SimplePaper from "./components/Paper";
+// import SimplePaper from "./components/Paper";
+import HoverRating from "./components/Rating/HoverRating";
+import RadioGroupRating from "./components/Rating/RadioGroup";
+// import BasicRating from "./components/Rating/RatingStars";
+import CustomizedRating from "./components/Rating/StyledRating";
 
 // import SxProp from "./components/SxProp";
 // import CircularIntegration from "./components/InteractiveProgress";
@@ -19,7 +23,7 @@ const App = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        gap: 100
+        gap: 10
       }}
     >
       {/* <ButtonContainer />
@@ -30,7 +34,11 @@ const App = () => {
       {/* <CircularIntegration />
       <LinearIndeterminate />
       <LinearBuffer/> */}
-      <SimplePaper/>
+      {/* <SimplePaper/> */}
+      {/* <BasicRating /> */}
+      <HoverRating />
+      <CustomizedRating />
+      <RadioGroupRating/>
     </div>
   );
 };

@@ -19,7 +19,7 @@ export default function SimplePaper() {
       <Paper />
       <Paper elevation={3} />
       <Paper elevation={6} square />
-      <Paper variant='outlined' sx={{backgroundColor: (theme) => 'primary.main'}} />
+      <Paper variant='outlined' sx={{backgroundColor: () => 'primary.main'}} />
     </Box>
   );
 }
