@@ -3,7 +3,7 @@
 
 // import SxProp from "./components/SxProp";
 import CircularIntegration from "./components/InteractiveProgress";
-import LinearIndeterminate from "./components/LinearProgress";
+import LinearIndeterminate, { LinearBuffer } from "./components/LinearProgress";
 import CircularIndeterminate from "./components/LoadingSpinner";
 // import Theming from "./components/Theming";
 
@@ -17,6 +17,7 @@ const App = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+        gap: 100
       }}
     >
       {/* <ButtonContainer />
@@ -25,7 +26,8 @@ const App = () => {
       {/* <Theming/> */}
       {/* <CircularIndeterminate/> */}
       <CircularIntegration />
-      <LinearIndeterminate/>
+      <LinearIndeterminate />
+      <LinearBuffer/>
     </div>
   );
 };
