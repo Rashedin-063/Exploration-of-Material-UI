@@ -2,6 +2,7 @@
 // import TypographyContainer from './components/TypographyContainer';
 
 // import SimplePaper from "./components/Paper";
+import CardsContainer from "./components/CardsContainer";
 import HoverRating from "./components/Rating/HoverRating";
 import RadioGroupRating from "./components/Rating/RadioGroup";
 // import BasicRating from "./components/Rating/RatingStars";
@@ -36,9 +37,10 @@ const App = () => {
       <LinearBuffer/> */}
       {/* <SimplePaper/> */}
       {/* <BasicRating /> */}
-      <HoverRating />
+      {/* <HoverRating />
       <CustomizedRating />
-      <RadioGroupRating/>
+      <RadioGroupRating/> */}
+      <CardsContainer/>
     </div>
   );
 };
