@@ -1,10 +1,12 @@
 // import ButtonContainer from './components/ButtonContainer';
 // import TypographyContainer from './components/TypographyContainer';
 
+import SimplePaper from "./components/Paper";
+
 // import SxProp from "./components/SxProp";
-import CircularIntegration from "./components/InteractiveProgress";
-import LinearIndeterminate, { LinearBuffer } from "./components/LinearProgress";
-import CircularIndeterminate from "./components/LoadingSpinner";
+// import CircularIntegration from "./components/InteractiveProgress";
+// import LinearIndeterminate, { LinearBuffer } from "./components/LinearProgress";
+// import CircularIndeterminate from "./components/LoadingSpinner";
 // import Theming from "./components/Theming";
 
 
@@ -25,9 +27,10 @@ const App = () => {
       {/* <SxProp/> */}
       {/* <Theming/> */}
       {/* <CircularIndeterminate/> */}
-      <CircularIntegration />
+      {/* <CircularIntegration />
       <LinearIndeterminate />
-      <LinearBuffer/>
+      <LinearBuffer/> */}
+      <SimplePaper/>
     </div>
   );
 };

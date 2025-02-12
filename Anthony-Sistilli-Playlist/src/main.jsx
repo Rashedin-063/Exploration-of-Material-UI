@@ -34,7 +34,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 const theme = createTheme({
   spacing: 15,
   palette: {
-    mode: 'dark',
+    mode: 'light',
     primary: {
       main: orange[500]
     },
