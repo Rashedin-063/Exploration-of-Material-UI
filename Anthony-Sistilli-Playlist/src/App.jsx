@@ -2,6 +2,7 @@
 // import TypographyContainer from './components/TypographyContainer';
 
 // import SxProp from "./components/SxProp";
+import CircularIndeterminate from "./components/LoadingSpinner";
 import Theming from "./components/Theming";
 
 
@@ -11,7 +12,9 @@ const App = () => {
       {/* <ButtonContainer />
       <TypographyContainer/> */}
       {/* <SxProp/> */}
-      <Theming/>
+      {/* <Theming/> */}
+      <CircularIndeterminate/>
+      
     </div>
   );
 };
