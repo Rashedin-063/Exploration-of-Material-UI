@@ -1,6 +1,10 @@
+import BoxCompo from "./BoxCompo"
+
 const BoxContainer = () => {
   return (
-    <div>BoxContainer</div>
+    <div>
+      <BoxCompo/>
+    </div>
   )
 }
 export default BoxContainer
