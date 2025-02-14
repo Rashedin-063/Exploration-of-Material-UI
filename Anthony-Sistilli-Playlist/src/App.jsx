@@ -1,8 +1,10 @@
 // import ButtonContainer from './components/ButtonContainer';
 // import TypographyContainer from './components/TypographyContainer';
 
+import BoxContainer from "./components/Box/BoxContainer";
+
 // import SimplePaper from "./components/Paper";
-import CardsContainer from "./components/CardsContainer";
+// import CardsContainer from "./components/CardsContainer";
 // import HoverRating from "./components/Rating/HoverRating";
 // import RadioGroupRating from "./components/Rating/RadioGroup";
 // // import BasicRating from "./components/Rating/RatingStars";
@@ -41,6 +43,7 @@ const App = () => {
       <CustomizedRating />
       <RadioGroupRating/> */}
       {/* <CardsContainer/> */}
+      <BoxContainer/>
     </div>
   );
 };
