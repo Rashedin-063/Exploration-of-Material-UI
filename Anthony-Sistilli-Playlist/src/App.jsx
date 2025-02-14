@@ -1,7 +1,8 @@
 // import ButtonContainer from './components/ButtonContainer';
 // import TypographyContainer from './components/TypographyContainer';
 
-import BoxContainer from "./components/Box/BoxContainer";
+import BadgeContainer from "./components/Badge/BadgeContainer";
+// import BoxContainer from "./components/Box/BoxContainer";
 
 // import SimplePaper from "./components/Paper";
 // import CardsContainer from "./components/CardsContainer";
@@ -43,7 +44,8 @@ const App = () => {
       <CustomizedRating />
       <RadioGroupRating/> */}
       {/* <CardsContainer/> */}
-      <BoxContainer/>
+      {/* <BoxContainer/> */}
+      <BadgeContainer/>
     </div>
   );
 };
