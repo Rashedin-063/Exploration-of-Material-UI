@@ -3,10 +3,10 @@
 
 // import SimplePaper from "./components/Paper";
 import CardsContainer from "./components/CardsContainer";
-import HoverRating from "./components/Rating/HoverRating";
-import RadioGroupRating from "./components/Rating/RadioGroup";
-// import BasicRating from "./components/Rating/RatingStars";
-import CustomizedRating from "./components/Rating/StyledRating";
+// import HoverRating from "./components/Rating/HoverRating";
+// import RadioGroupRating from "./components/Rating/RadioGroup";
+// // import BasicRating from "./components/Rating/RatingStars";
+// import CustomizedRating from "./components/Rating/StyledRating";
 
 // import SxProp from "./components/SxProp";
 // import CircularIntegration from "./components/InteractiveProgress";
@@ -40,7 +40,7 @@ const App = () => {
       {/* <HoverRating />
       <CustomizedRating />
       <RadioGroupRating/> */}
-      <CardsContainer/>
+      {/* <CardsContainer/> */}
     </div>
   );
 };
