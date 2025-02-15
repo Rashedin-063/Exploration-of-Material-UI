@@ -4,6 +4,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import SendIcon from '@mui/icons-material/Send';
 import { styled } from '@mui/material/styles';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+import Fingerprint from '@mui/icons-material/Fingerprint';
 
 const VisuallyHiddenInput = styled('input')({
   clip: 'rect(0 0 0 0)',
@@ -45,32 +46,43 @@ const ButtonContainer = () => {
         </Button>
       </Box>
       <Box my={4}>
-        <IconButton aria-label='delete'>
-          <DeleteIcon/>
+        <IconButton disabled aria-label='delete'>
+          <DeleteIcon />
         </IconButton>
-        <Button variant="outlined" startIcon={<DeleteIcon />}>
-  Delete
-</Button>
-<Button variant="contained" endIcon={<SendIcon />}>
-  Send
-</Button>
+        <Button href='/delete' variant='outlined' startIcon={<DeleteIcon />}>
+          Delete
+        </Button>
+        <Button variant='contained' endIcon={<SendIcon />}>
+          Send
+        </Button>
       </Box>
       <Box>
         <Button
-  component="label"
-  role={undefined}
-  variant="contained"
-  tabIndex={-1}
-  startIcon={<CloudUploadIcon />}
->
-  Upload files
-  <VisuallyHiddenInput
-    type="file"
-    onChange={(event) => console.log(event.target.files)}
-    multiple
-  />
-</Button>
+          component='label'
+          role={undefined}
+          variant='contained'
+          tabIndex={-1}
+          startIcon={<CloudUploadIcon />}
+        >
+          Upload files
+          <VisuallyHiddenInput
+            type='file'
+            onChange={(event) => console.log(event.target.files)}
+            multiple
+          />
+        </Button>
       </Box>
+      <div style={{ marginTop: '8px' }}>
+        <Button disableElevation variant='contained' color='primary'>
+          Small
+        </Button>
+        <IconButton aria-label='fingerprint' color='secondary'>
+          <Fingerprint />
+        </IconButton>
+        <IconButton aria-label='fingerprint' color='success'>
+          <Fingerprint />
+        </IconButton>
+      </div>
     </Container>
   );
 };

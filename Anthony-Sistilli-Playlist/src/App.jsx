@@ -16,7 +16,8 @@
 // import SkeletonContainer from "./components/Skeleton/SkeletonContainer";
 // import ListContainer from "./components/Lists/ListContainer";
 
-import AvatarContainer from "./components/Avatar/AvatarContainer";
+// import AvatarContainer from "./components/Avatar/AvatarContainer";
+import ButtonContainer from './components/ButtonContainer';
 
 
 
@@ -50,7 +51,8 @@ const App = () => {
       {/* <BadgeContainer/> */}
       {/* <SkeletonContainer/> */}
       {/* <ListContainer/> */}
-    <AvatarContainer/>
+      {/* <AvatarContainer/> */}
+      <ButtonContainer/>
     </div>
   );
 };
