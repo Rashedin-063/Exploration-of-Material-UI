@@ -14,7 +14,10 @@
 // import CircularIndeterminate from "./components/LoadingSpinner";
 // import Theming from "./components/Theming";
 // import SkeletonContainer from "./components/Skeleton/SkeletonContainer";
-import ListContainer from "./components/Lists/ListContainer";
+// import ListContainer from "./components/Lists/ListContainer";
+
+import AvatarContainer from "./components/Avatar/AvatarContainer";
+
 
 
 const App = () => {
@@ -46,7 +49,8 @@ const App = () => {
       {/* <BoxContainer/> */}
       {/* <BadgeContainer/> */}
       {/* <SkeletonContainer/> */}
-      <ListContainer/>
+      {/* <ListContainer/> */}
+    <AvatarContainer/>
     </div>
   );
 };
