@@ -1,6 +1,12 @@
+import Facebook from "./CardSkeleton"
+import Variants from "./Variants"
+
 const SkeletonContainer = () => {
   return (
-    <div>SkeletonContainer</div>
+    <div>
+      {/* <Variants/> */}
+      <Facebook/>
+    </div>
   )
 }
 export default SkeletonContainer
