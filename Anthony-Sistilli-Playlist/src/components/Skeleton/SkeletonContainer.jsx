@@ -1,5 +1,5 @@
 import Facebook from "./CardSkeleton"
-import Variants from "./Variants"
+// import Variants from "./Variants"
 
 const SkeletonContainer = () => {
   return (
