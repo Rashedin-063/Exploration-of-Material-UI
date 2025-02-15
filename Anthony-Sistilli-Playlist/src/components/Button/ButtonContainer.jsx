@@ -6,6 +6,8 @@ import { styled } from '@mui/material/styles';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import Fingerprint from '@mui/icons-material/Fingerprint';
 import LoadingButtonsTransition from './LoadingButton';
+import BasicButtonGroup from './ButtonGroup';
+import SplitButton from './SplitButton';
 
 const VisuallyHiddenInput = styled('input')({
   clip: 'rect(0 0 0 0)',
@@ -21,6 +23,9 @@ const VisuallyHiddenInput = styled('input')({
 const ButtonContainer = () => {
   return (
     <Container>
+      <Box sx={{ my: 4 }}>
+        <BasicButtonGroup />
+      </Box>
       <Box sx={{ display: 'flex', gap: 1 }}>
         <Button variant='outlined'>Outlined Button</Button>
         <Button variant='contained' size='small'>
@@ -84,7 +89,10 @@ const ButtonContainer = () => {
           <Fingerprint />
         </IconButton>
       </div>
-      <LoadingButtonsTransition/>
+      <LoadingButtonsTransition />
+      <div style={{marginTop: '3rem', marginBottom: '5rem'}}>
+        <SplitButton />
+      </div>
     </Container>
   );
 };
