@@ -1,7 +1,9 @@
 // import BasicList from "./BasicList"
 // import NestedList from "./NestedList"
 // import FolderList from "./FolderList"
-import InteractiveList from "./InteractiveList"
+// import InteractiveList from "./InteractiveList"
+import CheckboxList from "./CheckBoxList"
+import SwitchListSecondary from "./SwitchList"
 
 const ListContainer = () => {
   return (
@@ -9,7 +11,9 @@ const ListContainer = () => {
       {/* <BasicList/> */}
       {/* <NestedList/> */}
       {/* <FolderList/> */}
-      <InteractiveList/>
+      {/* <InteractiveList/> */}
+      <CheckboxList />
+      <SwitchListSecondary/>
     </div>
   )
 }
