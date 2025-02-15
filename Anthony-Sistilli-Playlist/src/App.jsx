@@ -1,21 +1,20 @@
 // import ButtonContainer from './components/ButtonContainer';
 // import TypographyContainer from './components/TypographyContainer';
-
-import BadgeContainer from "./components/Badge/BadgeContainer";
+// import BadgeContainer from "./components/Badge/BadgeContainer";
 // import BoxContainer from "./components/Box/BoxContainer";
-
 // import SimplePaper from "./components/Paper";
 // import CardsContainer from "./components/CardsContainer";
 // import HoverRating from "./components/Rating/HoverRating";
 // import RadioGroupRating from "./components/Rating/RadioGroup";
 // // import BasicRating from "./components/Rating/RatingStars";
 // import CustomizedRating from "./components/Rating/StyledRating";
-
 // import SxProp from "./components/SxProp";
 // import CircularIntegration from "./components/InteractiveProgress";
 // import LinearIndeterminate, { LinearBuffer } from "./components/LinearProgress";
 // import CircularIndeterminate from "./components/LoadingSpinner";
 // import Theming from "./components/Theming";
+
+import SkeletonContainer from "./components/Skeleton/SkeletonContainer";
 
 
 const App = () => {
@@ -45,7 +44,8 @@ const App = () => {
       <RadioGroupRating/> */}
       {/* <CardsContainer/> */}
       {/* <BoxContainer/> */}
-      <BadgeContainer/>
+      {/* <BadgeContainer/> */}
+      <SkeletonContainer/>
     </div>
   );
 };
