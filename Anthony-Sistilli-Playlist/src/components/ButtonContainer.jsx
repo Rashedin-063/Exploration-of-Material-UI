@@ -5,6 +5,7 @@ import SendIcon from '@mui/icons-material/Send';
 import { styled } from '@mui/material/styles';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import Fingerprint from '@mui/icons-material/Fingerprint';
+import LoadingButtonsTransition from './LoadingButton';
 
 const VisuallyHiddenInput = styled('input')({
   clip: 'rect(0 0 0 0)',
@@ -72,7 +73,7 @@ const ButtonContainer = () => {
           />
         </Button>
       </Box>
-      <div style={{ marginTop: '8px' }}>
+      <div style={{ marginTop: '8px', marginBottom: '1rem' }}>
         <Button disableElevation variant='contained' color='primary'>
           Small
         </Button>
@@ -83,6 +84,7 @@ const ButtonContainer = () => {
           <Fingerprint />
         </IconButton>
       </div>
+      <LoadingButtonsTransition/>
     </Container>
   );
 };
