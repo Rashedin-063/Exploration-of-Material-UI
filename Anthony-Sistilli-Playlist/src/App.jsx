@@ -15,11 +15,10 @@
 // import Theming from "./components/Theming";
 // import SkeletonContainer from "./components/Skeleton/SkeletonContainer";
 // import ListContainer from "./components/Lists/ListContainer";
-
-import TransfarListContainer from "./components/TransferList/TransfarListContainer";
-
+// import TransfarListContainer from "./components/TransferList/TransfarListContainer";
 // import AvatarContainer from "./components/Avatar/AvatarContainer";
 // import ButtonContainer from './components/Button/ButtonContainer';
+import SnackbarContainer from './components/Snackbar/SnackbarContainer';
 
 
 
@@ -55,7 +54,8 @@ const App = () => {
       {/* <ListContainer/> */}
       {/* <AvatarContainer/> */}
       {/* <ButtonContainer/> */}
-      <TransfarListContainer/>
+      {/* <TransfarListContainer/> */}
+      <SnackbarContainer/>
     </div>
   );
 };
