@@ -1,4 +1,6 @@
 // import LongTextSnackbar from "./LongTextSnackbar"
+import CustomizedSnackbars from "./CustomizedSnackbar"
+import CustomSnackbar2 from "./CustomSnackbar2"
 import SimpleSnackbar from "./SimpleSnackbar"
 import TransitionsSnackbar from "./TransitionSnackbar"
 
@@ -7,7 +9,9 @@ const SnackbarContainer = () => {
     <div>
       <SimpleSnackbar />
       {/* <LongTextSnackbar/> */}
-      <TransitionsSnackbar/>
+      <TransitionsSnackbar />
+      <CustomizedSnackbars />
+      <CustomSnackbar2/>
     </div>
   )
 }
