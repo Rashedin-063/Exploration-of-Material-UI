@@ -19,7 +19,8 @@
 // import AvatarContainer from "./components/Avatar/AvatarContainer";
 // import ButtonContainer from './components/Button/ButtonContainer';
 // import SnackbarContainer from './components/Snackbar/SnackbarContainer';
-import StackContainer from './components/Stack/StackContainer';
+// import StackContainer from './components/Stack/StackContainer';
+import DividerContainer from './components/Divider/DividerContainer';
 
 
 
@@ -57,7 +58,8 @@ const App = () => {
       {/* <ButtonContainer/> */}
       {/* <TransfarListContainer/> */}
       {/* <SnackbarContainer/> */}
-      <StackContainer/>
+      {/* <StackContainer/> */}
+      <DividerContainer/>
     </div>
   );
 };
