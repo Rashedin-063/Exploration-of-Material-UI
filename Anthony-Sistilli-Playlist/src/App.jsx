@@ -21,6 +21,7 @@
 // import SnackbarContainer from './components/Snackbar/SnackbarContainer';
 // import StackContainer from './components/Stack/StackContainer';
 import DividerContainer from './components/Divider/DividerContainer';
+import RadioButtonsContainer from './components/RadioGroup/RadioButtonsContainer';
 
 
 
@@ -59,7 +60,8 @@ const App = () => {
       {/* <TransfarListContainer/> */}
       {/* <SnackbarContainer/> */}
       {/* <StackContainer/> */}
-      <DividerContainer/>
+      {/* <DividerContainer/> */}
+      <RadioButtonsContainer/>
     </div>
   );
 };
