@@ -20,8 +20,11 @@
 // import ButtonContainer from './components/Button/ButtonContainer';
 // import SnackbarContainer from './components/Snackbar/SnackbarContainer';
 // import StackContainer from './components/Stack/StackContainer';
-import DividerContainer from './components/Divider/DividerContainer';
-import RadioButtonsContainer from './components/RadioGroup/RadioButtonsContainer';
+// import DividerContainer from './components/Divider/DividerContainer';
+// import RadioButtonsContainer from './components/RadioGroup/RadioButtonsContainer';
+
+import TableContainer from "./components/Table/TableContainer";
+
 
 
 
@@ -61,7 +64,8 @@ const App = () => {
       {/* <SnackbarContainer/> */}
       {/* <StackContainer/> */}
       {/* <DividerContainer/> */}
-      <RadioButtonsContainer/>
+      {/* <RadioButtonsContainer/> */}
+      <TableContainer/>
     </div>
   );
 };
