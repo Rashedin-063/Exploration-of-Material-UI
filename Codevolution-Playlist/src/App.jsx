@@ -1,3 +1,7 @@
+import ButtonContainer2 from "./components/Button/ButtonContainer";
+
+
+
 const App = () => {
   return (
     <main
@@ -10,7 +14,7 @@ const App = () => {
         gap: 10,
       }}
     >
-      App
+     <ButtonContainer2/>
     </main>
   );
 }
