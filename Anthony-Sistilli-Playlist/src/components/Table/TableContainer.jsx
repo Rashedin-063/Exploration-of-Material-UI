@@ -3,6 +3,7 @@ import BasicTable from "./BasicTable"
 import DataTable from "./DataTable"
 import EnhancedTable from "./EnhancedTableHead"
 import DenseTable from "./DenseTable"
+import CustomizedTables from "./CustomizedTable"
 
 const TableContainer = () => {
   return (
@@ -10,7 +11,8 @@ const TableContainer = () => {
       <BasicTable />
       <DataTable />
       <DenseTable/>
-      <EnhancedTable/>
+      <EnhancedTable />
+      <CustomizedTables/>
     </Stack>
   )
 }
