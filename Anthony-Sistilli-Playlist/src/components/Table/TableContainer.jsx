@@ -2,12 +2,14 @@ import { Stack } from "@mui/material"
 import BasicTable from "./BasicTable"
 import DataTable from "./DataTable"
 import EnhancedTable from "./EnhancedTableHead"
+import DenseTable from "./DenseTable"
 
 const TableContainer = () => {
   return (
     <Stack spacing={4} mt={4}>
       <BasicTable />
       <DataTable />
+      <DenseTable/>
       <EnhancedTable/>
     </Stack>
   )
