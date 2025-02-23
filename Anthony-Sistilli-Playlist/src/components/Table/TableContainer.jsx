@@ -9,6 +9,7 @@ import StickyHeadTable from "./StickyHeadTable"
 import ColumnGroupingTable from "./ColumnGroupingTable"
 import CollapsibleTable from "./CollapsibleTable"
 import SpanningTable from "./SpanningTable"
+import ReactVirtualizedTable from './VirtuosoTable';
 
 const TableContainer = () => {
   return (
@@ -22,7 +23,8 @@ const TableContainer = () => {
       <StickyHeadTable />
       <ColumnGroupingTable />
       <CollapsibleTable />
-      <SpanningTable/>
+      <SpanningTable />
+      <ReactVirtualizedTable/>
     </Stack>
   )
 }

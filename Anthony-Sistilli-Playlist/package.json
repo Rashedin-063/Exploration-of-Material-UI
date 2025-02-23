@@ -15,10 +15,12 @@
     "@mui/icons-material": "^6.4.3",
     "@mui/material": "^6.4.3",
     "@mui/x-data-grid": "^7.27.0",
+    "chance": "^1.1.12",
     "install": "^0.13.0",
     "npm": "^10.9.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-virtuoso": "^0.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
