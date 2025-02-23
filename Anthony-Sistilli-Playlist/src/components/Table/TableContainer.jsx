@@ -4,6 +4,7 @@ import DataTable from "./DataTable"
 import EnhancedTable from "./EnhancedTableHead"
 import DenseTable from "./DenseTable"
 import CustomizedTables from "./CustomizedTable"
+import CustomPaginationActionsTable from "./CustomPaginationTable"
 
 const TableContainer = () => {
   return (
@@ -12,7 +13,8 @@ const TableContainer = () => {
       <DataTable />
       <DenseTable/>
       <EnhancedTable />
-      <CustomizedTables/>
+      <CustomizedTables />
+      <CustomPaginationActionsTable/>
     </Stack>
   )
 }
