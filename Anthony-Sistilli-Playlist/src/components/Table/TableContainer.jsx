@@ -8,6 +8,7 @@ import CustomPaginationActionsTable from "./CustomPaginationTable"
 import StickyHeadTable from "./StickyHeadTable"
 import ColumnGroupingTable from "./ColumnGroupingTable"
 import CollapsibleTable from "./CollapsibleTable"
+import SpanningTable from "./SpanningTable"
 
 const TableContainer = () => {
   return (
@@ -20,7 +21,8 @@ const TableContainer = () => {
       <CustomPaginationActionsTable />
       <StickyHeadTable />
       <ColumnGroupingTable />
-      <CollapsibleTable/>
+      <CollapsibleTable />
+      <SpanningTable/>
     </Stack>
   )
 }
