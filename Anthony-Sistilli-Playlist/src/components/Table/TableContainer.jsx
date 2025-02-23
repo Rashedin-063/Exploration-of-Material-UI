@@ -5,6 +5,7 @@ import EnhancedTable from "./EnhancedTableHead"
 import DenseTable from "./DenseTable"
 import CustomizedTables from "./CustomizedTable"
 import CustomPaginationActionsTable from "./CustomPaginationTable"
+import StickyHeadTable from "./StickyHeadTable"
 
 const TableContainer = () => {
   return (
@@ -14,7 +15,8 @@ const TableContainer = () => {
       <DenseTable/>
       <EnhancedTable />
       <CustomizedTables />
-      <CustomPaginationActionsTable/>
+      <CustomPaginationActionsTable />
+      <StickyHeadTable/>
     </Stack>
   )
 }
