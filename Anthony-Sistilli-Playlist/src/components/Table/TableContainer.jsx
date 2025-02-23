@@ -5,7 +5,7 @@ import EnhancedTable from "./EnhancedTableHead"
 
 const TableContainer = () => {
   return (
-    <Stack spacing={4}>
+    <Stack spacing={4} mt={4}>
       <BasicTable />
       <DataTable />
       <EnhancedTable/>
