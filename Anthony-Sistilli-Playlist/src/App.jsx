@@ -22,8 +22,8 @@
 // import StackContainer from './components/Stack/StackContainer';
 // import DividerContainer from './components/Divider/DividerContainer';
 // import RadioButtonsContainer from './components/RadioGroup/RadioButtonsContainer';
-
-import TableContainer from "./components/Table/TableContainer";
+// import TableContainer from "./components/Table/TableContainer";
+import TooltipContainer from "./components/Tooltip/TooltipContainer";
 
 
 
@@ -65,7 +65,8 @@ const App = () => {
       {/* <StackContainer/> */}
       {/* <DividerContainer/> */}
       {/* <RadioButtonsContainer/> */}
-      <TableContainer/>
+      {/* <TableContainer/> */}
+      <TooltipContainer/>
     </div>
   );
 };
