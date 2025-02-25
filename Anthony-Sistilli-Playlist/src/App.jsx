@@ -23,7 +23,9 @@
 // import DividerContainer from './components/Divider/DividerContainer';
 // import RadioButtonsContainer from './components/RadioGroup/RadioButtonsContainer';
 // import TableContainer from "./components/Table/TableContainer";
-import TooltipContainer from "./components/Tooltip/TooltipContainer";
+// import TooltipContainer from "./components/Tooltip/TooltipContainer";
+
+import CheckboxContainer from "./components/Checkbox/CheckboxContainer";
 
 
 
@@ -66,7 +68,8 @@ const App = () => {
       {/* <DividerContainer/> */}
       {/* <RadioButtonsContainer/> */}
       {/* <TableContainer/> */}
-      <TooltipContainer/>
+      {/* <TooltipContainer/> */}
+      <CheckboxContainer/>
     </div>
   );
 };
