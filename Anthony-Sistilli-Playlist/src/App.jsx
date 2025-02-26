@@ -25,8 +25,10 @@
 // import TableContainer from "./components/Table/TableContainer";
 // import TooltipContainer from "./components/Tooltip/TooltipContainer";
 // import CheckboxContainer from "./components/Checkbox/CheckboxContainer";
-import BackdropContainer from "./components/Backdrop/BackdropContainer";
-import LinkContainer from "./components/Links/LinkContainer";
+// import BackdropContainer from "./components/Backdrop/BackdropContainer";
+// import LinkContainer from "./components/Links/LinkContainer";
+
+import { Typography } from "@mui/material";
 
 
 
@@ -72,7 +74,10 @@ const App = () => {
       {/* <TooltipContainer/> */}
       {/* <CheckboxContainer/> */}
       {/* <BackdropContainer/> */}
-      <LinkContainer/>
+      {/* <LinkContainer/> */}
+      <Typography variant="h3" color="success">
+        Congrats, Anthony Sistilli Playlist for MUI5 has been Completed!
+      </Typography>
     </div>
   );
 };
