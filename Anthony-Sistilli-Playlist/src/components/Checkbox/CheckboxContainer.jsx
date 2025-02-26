@@ -1,8 +1,4 @@
 const CheckboxContainer = () => {
-  return (
-    <div>
-      <p>Error pushing data</p>
-    </div>
-  )
+  return <div>CheckboxContainer</div>;
 }
 export default CheckboxContainer
