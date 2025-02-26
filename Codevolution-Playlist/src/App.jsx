@@ -1,4 +1,5 @@
-import ButtonContainer2 from "./components/Button/ButtonContainer";
+// import ButtonContainer2 from "./components/Button/ButtonContainer";
+import ChipContainer from "./components/Chip/ChipContainer";
 
 
 
@@ -14,7 +15,8 @@ const App = () => {
         gap: 10,
       }}
     >
-     <ButtonContainer2/>
+      {/* <ButtonContainer2/> */}
+      <ChipContainer/>
     </main>
   );
 }
