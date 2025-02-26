@@ -1,5 +1,6 @@
 // import ButtonContainer2 from "./components/Button/ButtonContainer";
-import ChipContainer from "./components/Chip/ChipContainer";
+// import ChipContainer from "./components/Chip/ChipContainer";
+import MuiAlert from "./components/MuiAlert";
 
 
 
@@ -8,15 +9,14 @@ const App = () => {
     <main
       style={{
         minHeight: '80vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        gap: 10,
+        
+        width: '60%',
+        margin: '0 auto'
       }}
     >
       {/* <ButtonContainer2/> */}
-      <ChipContainer/>
+      {/* <ChipContainer/> */}
+      <MuiAlert/>
     </main>
   );
 }
