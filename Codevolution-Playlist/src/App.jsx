@@ -2,8 +2,9 @@
 // import ChipContainer from "./components/Chip/ChipContainer";
 // import MuiAlert from "./components/MuiAlert";
 // import MuiSnackbar from "./components/MuiSnackbar";
-
-import MuiDialog from "./components/MuiDialog";
+// import MuiDialog from "./components/MuiDialog";
+import MuiLoadingButton from './components/MuiLoadingButton';
+import MuiToggleButton from './components/MuiToggleButton';
 
 
 
@@ -26,7 +27,8 @@ const App = () => {
       {/* <MuiAlert/> */}
       {/* <MuiSnackbar/> */}
       {/* <MuiDialog/> */}
-      <MuiLoadingBu
+      {/* <MuiLoadingButton/> */}
+      <MuiToggleButton/>
     </main>
   );
 }
