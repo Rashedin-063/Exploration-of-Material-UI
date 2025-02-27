@@ -1,6 +1,7 @@
 // import ButtonContainer2 from "./components/Button/ButtonContainer";
 // import ChipContainer from "./components/Chip/ChipContainer";
-import MuiAlert from "./components/MuiAlert";
+// import MuiAlert from "./components/MuiAlert";
+import MuiSnackbar from "./components/MuiSnackbar";
 
 
 
@@ -16,7 +17,8 @@ const App = () => {
     >
       {/* <ButtonContainer2/> */}
       {/* <ChipContainer/> */}
-      <MuiAlert/>
+      {/* <MuiAlert/> */}
+      {/* <MuiSnackbar/> */}
     </main>
   );
 }
