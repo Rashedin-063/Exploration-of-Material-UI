@@ -11,6 +11,7 @@
 // import SwitchContainer from "./components/Switch/SwitchContainer";
 // import AccordionContainer from "./components/Accordion/AccordionContainer";
 import ImageListContainer from "./components/ImageList/ImageListContainer";
+import MuiMasonry from "./components/MuiMasonry";
 
 
 
@@ -40,7 +41,8 @@ const App = () => {
       {/* <SelectContainer/> */}
       {/* <SwitchContainer/> */}
       {/* <AccordionContainer/> */}
-      <ImageListContainer/>
+      {/* <ImageListContainer/> */}
+      <MuiMasonry/>
     </main>
   );
 }
