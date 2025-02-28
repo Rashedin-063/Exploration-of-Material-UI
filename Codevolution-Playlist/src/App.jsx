@@ -7,7 +7,8 @@
 // import MuiToggleButton from './components/MuiToggleButton';
 // import MuiSelect from "./components/MuiSelect";
 // import TextFieldContainer from "./components/TextField/TextFieldContainer";
-import SelectContainer from "./components/Select/SelectContainer";
+// import SelectContainer from "./components/Select/SelectContainer";
+import SwitchContainer from "./components/Switch/SwitchContainer";
 
 
 
@@ -34,7 +35,8 @@ const App = () => {
       {/* <MuiToggleButton/> */}
       {/* <TextFieldContainer/> */}
       {/* <MuiSelect/> */}
-      <SelectContainer/>
+      {/* <SelectContainer/> */}
+      <SwitchContainer/>
     </main>
   );
 }
