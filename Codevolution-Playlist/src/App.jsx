@@ -8,7 +8,8 @@
 // import MuiSelect from "./components/MuiSelect";
 // import TextFieldContainer from "./components/TextField/TextFieldContainer";
 // import SelectContainer from "./components/Select/SelectContainer";
-import SwitchContainer from "./components/Switch/SwitchContainer";
+// import SwitchContainer from "./components/Switch/SwitchContainer";
+import AccordionContainer from "./components/Accordion/AccordionContainer";
 
 
 
@@ -36,7 +37,8 @@ const App = () => {
       {/* <TextFieldContainer/> */}
       {/* <MuiSelect/> */}
       {/* <SelectContainer/> */}
-      <SwitchContainer/>
+      {/* <SwitchContainer/> */}
+      <AccordionContainer/>
     </main>
   );
 }
