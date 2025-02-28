@@ -4,6 +4,8 @@ import MenuAppBar from "./MenuAppBar"
 import ResponsiveAppBar from "./ResponsiveAppBar"
 import TemporaryDrawer from "./DrawerList"
 import AnchorTemporaryDrawer from "./AnchorTempDrawer"
+// import MiniDrawer from "./MiniDrawer"
+import ResponsiveDrawer from "./ResponsiveDrawer"
 
 const NavContainer = () => {
   return (
@@ -16,6 +18,9 @@ const NavContainer = () => {
         <TemporaryDrawer />
         <AnchorTemporaryDrawer/>
       </Stack>
+
+      {/* <MiniDrawer/> */}
+      <ResponsiveDrawer/>
     </Stack>
   );
 }
