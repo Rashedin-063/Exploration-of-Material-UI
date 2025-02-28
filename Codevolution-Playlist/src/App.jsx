@@ -12,23 +12,24 @@
 // import AccordionContainer from "./components/Accordion/AccordionContainer";
 // import ImageListContainer from "./components/ImageList/ImageListContainer";
 // import MuiMasonry from "./components/MuiMasonry";
-import NavContainer from "./components/Navbar/NavContainer";
+import BreadcrumbContainer from "./components/Breadcrumbs/BreadcrumbContainer";
+// import NavContainer from "./components/Navbar/NavContainer";
 
 
 
 const App = () => {
   return (
     <main
-      // style={{
-      //   minHeight: '80vh',
-      //   display: 'flex',
-      //   flexDirection: 'column',
-      //   justifyContent: 'center',
-      //   alignItems: 'center',
-      //   gap: 10,
-      //   width: '100%',
-      //   margin: '0 auto'
-      // }}
+      style={{
+        minHeight: '80vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: 10,
+        width: '100%',
+        margin: '0 auto'
+      }}
     >
       {/* <ButtonContainer2/> */}
       {/* <ChipContainer/> */}
@@ -44,7 +45,8 @@ const App = () => {
       {/* <AccordionContainer/> */}
       {/* <ImageListContainer/> */}
       {/* <MuiMasonry/> */}
-      <NavContainer/>
+      {/* <NavContainer/> */}
+      <BreadcrumbContainer/>
     </main>
   );
 }
