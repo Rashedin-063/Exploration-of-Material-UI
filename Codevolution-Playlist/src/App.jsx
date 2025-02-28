@@ -15,8 +15,8 @@
 // import BreadcrumbContainer from "./components/Breadcrumbs/BreadcrumbContainer";
 // import NavContainer from "./components/Navbar/NavContainer";
 // import SpeedDialContainer from "./components/SpeedDial/SpeedDialContainer";
-
-import BottomNavigationContainer from "./components/BottomNavigation/BottomNavigationContainer";
+// import BottomNavigationContainer from "./components/BottomNavigation/BottomNavigationContainer";
+import GridContainer from "./components/Grid/GridContainer";
 
 
 
@@ -33,7 +33,6 @@ const App = () => {
       //   width: '100%',
       //   margin: '0 auto'
       // }} 
-      style={{position: 'relative'}}
     >
       {/* <ButtonContainer2/> */}
       {/* <ChipContainer/> */}
@@ -52,7 +51,8 @@ const App = () => {
       {/* <NavContainer/> */}
       {/* <BreadcrumbContainer/> */}
       {/* <SpeedDialContainer/> */}
-      <BottomNavigationContainer/>
+      {/* <BottomNavigationContainer/> */}
+      <GridContainer/>
     </main>
   );
 }
