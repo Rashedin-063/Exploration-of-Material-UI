@@ -14,7 +14,9 @@
 // import MuiMasonry from "./components/MuiMasonry";
 // import BreadcrumbContainer from "./components/Breadcrumbs/BreadcrumbContainer";
 // import NavContainer from "./components/Navbar/NavContainer";
-import SpeedDialContainer from "./components/SpeedDial/SpeedDialContainer";
+// import SpeedDialContainer from "./components/SpeedDial/SpeedDialContainer";
+
+import BottomNavigationContainer from "./components/BottomNavigation/BottomNavigationContainer";
 
 
 
@@ -49,7 +51,8 @@ const App = () => {
       {/* <MuiMasonry/> */}
       {/* <NavContainer/> */}
       {/* <BreadcrumbContainer/> */}
-   <SpeedDialContainer/>
+      {/* <SpeedDialContainer/> */}
+      <BottomNavigationContainer/>
     </main>
   );
 }
