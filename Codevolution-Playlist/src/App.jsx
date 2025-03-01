@@ -16,23 +16,24 @@
 // import NavContainer from "./components/Navbar/NavContainer";
 // import SpeedDialContainer from "./components/SpeedDial/SpeedDialContainer";
 // import BottomNavigationContainer from "./components/BottomNavigation/BottomNavigationContainer";
-import GridContainer from "./components/Grid/GridContainer";
+import { Typography } from "@mui/material";
+// import GridContainer from "./components/Grid/GridContainer";
 
 
 
 const App = () => {
   return (
     <main
-      // style={{
-      //   minHeight: '80vh',
-      //   display: 'flex',
-      //   flexDirection: 'column',
-      //   justifyContent: 'center',
-      //   alignItems: 'center',
-      //   gap: 10,
-      //   width: '100%',
-      //   margin: '0 auto'
-      // }} 
+    // style={{
+    //   minHeight: '80vh',
+    //   display: 'flex',
+    //   flexDirection: 'column',
+    //   justifyContent: 'center',
+    //   alignItems: 'center',
+    //   gap: 10,
+    //   width: '100%',
+    //   margin: '0 auto'
+    // }}
     >
       {/* <ButtonContainer2/> */}
       {/* <ChipContainer/> */}
@@ -52,7 +53,10 @@ const App = () => {
       {/* <BreadcrumbContainer/> */}
       {/* <SpeedDialContainer/> */}
       {/* <BottomNavigationContainer/> */}
-      <GridContainer/>
+      {/* <GridContainer/> */}
+      <Typography variant='h3' color='success'>
+        Congrats, Coddevolution Playlist for MUI5 has been Completed!
+      </Typography>
     </main>
   );
 }
